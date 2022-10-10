@@ -1,0 +1,27 @@
+.menu-in {
+  animation: slide-in ease-out 0.5s;
+}
+
+.menu-out {
+  animation: slide-out ease-out 1s;
+}
+
+@keyframes slide-in {
+  from {
+    right: -10000px;
+  }
+
+  to {
+    right: 0px;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    right: 0px;
+  }
+
+  to {
+    right: -10000px;
+  }
+}
